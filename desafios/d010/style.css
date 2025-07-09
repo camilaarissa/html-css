@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Idroid";
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(pacote-projeto-d010/fontes/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+
+header{
+    background:radial-gradient(#39CC7A, #1A5C38);
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}  
+header h1{
+    font-style: normal;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+header p{
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    text-indent: 2em;
+}
+p#menu{
+    font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    color: aliceblue;
+
+}
+
+main{
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.379) 0px 0px 10px;
+    padding: 20px;
+}
+
+main#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A5C38;
+    border: #1A5C38 solid 20px;
+}
+
+main#final{
+    justify-content: center;
+    align-items: center;
+    border: white solid 20px;
+}
+h1{
+    font-family: "Idroid", sans-serif;
+    font-size: 25px;
+    color: #1A5C38;
+    text-align: left;
+}
+h2.inicial{
+    font-family: "Idroid", sans-serif;
+    background:linear-gradient(to right, #C5EBD6, #ebf0ee00);
+    font-size: 20px;
+    color: #1A5C38;
+    text-align: left;
+}
+div#extra{
+    background-color: #C5EBD6;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 14px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.379) 0px 0px 10px;
+}
+div#extra h2{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #2FA866;
+}
+div#extra ul{
+    text-decoration: underline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    list-style-position: inside;
+}
+.lista{
+    list-style: none;
+    padding-left: 0;
+}
+.lista li::before{
+    content: "✔️";
+    margin: 8px;
+    text-decoration: none;
+}
+
+span {
+    color: #1A5C38;
+    font-weight: bold;
+}
+footer{
+    background-color:#1A5C38;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+picture{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: #ffffff solid 20px;
+}
+img#bugdroid{
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+}
